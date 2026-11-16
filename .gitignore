@@ -1,0 +1,14 @@
+# Credenciales: nunca subir llaves de AWS
+*accessKeys*.csv
+*credentials*
+.env
+.aws/
+
+# Datos y archivos pesados
+*.parquet
+*.pbix
+
+# Sistema
+.DS_Store
+Thumbs.db
+__pycache__/
